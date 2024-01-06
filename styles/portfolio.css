@@ -1,5 +1,5 @@
 /* common shared styles  */
-*{
+* {
     margin: 0;
     padding: 0;
 }
@@ -8,11 +8,11 @@ body {
     font-family: 'Open Sans', sans-serif;
 }
 
-.text-primary-clr{
+.text-primary-clr {
     color: #FD6E0A;
 }
 
-.btn-primary{
+.btn-primary {
     background-color: #FD6E0A;
     border-radius: 5px;
     color: #FFF;
@@ -22,8 +22,24 @@ body {
     padding: 15px 30px;
 }
 
+.section-title {
+    color: #181818;
+    text-align: center;
+    font-size: 35px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.section-des {
+    color: #757575;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+
 /* header related styles  */
-.header{
+.header {
     background-color: #FFF8F3;
     background-image: url(../images/header_bg.png);
     background-repeat: no-repeat;
@@ -45,57 +61,83 @@ nav .nav-title {
     font-weight: 800;
 }
 
-nav > ul{
+nav>ul {
     display: flex;
     align-items: center;
 }
 
-nav > ul li{
+nav>ul li {
     list-style: none;
     margin-right: 50px;
 }
 
-nav > ul li a{
+nav>ul li a {
     text-decoration: none;
     color: #474747;
 }
 
-.banner{
+.banner {
     padding: 30px 30px 0px 150px;
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
 
-.banner .banner-content{
+.banner .banner-content {
     max-width: 600px;
 }
 
-.banner .prfl-pic{
+.banner .prfl-pic {
     width: 500px;
     height: 550px;
 }
 
-.banner .banner-greet{
+.banner .banner-greet {
     font-size: 45px;
     font-weight: 600;
     color: #474747;
 }
 
-.banner .banner-title{
+.banner .banner-title {
     font-size: 60px;
     font-weight: 700;
     color: #181818;
     margin-bottom: 20px;
 }
 
-.banner .banner-des{
+.banner .banner-des {
     font-size: 18px;
     font-weight: 400;
     color: #757575;
     margin-bottom: 30px;
 }
 
-.banner .gap{
+.banner .gap {
     margin-right: 30px;
+}
+
+
+/* main section styles  */
+main{
+    max-width: 1150px;
+    margin: 0 auto;
+}
+
+/* about section styles  */
+
+.about {
+    background-color: #FFF8F3;
+    border-radius: 10px;
+    margin: 130px 0;
+    padding: 130px;
+}
+
+.about .about-info-container{
+    padding-top: 40px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.about .about-info-container .about-info{
+    text-align: center;
 }
