@@ -258,3 +258,57 @@ textarea {
     border-radius: 5px;
     background-color: #FFF;
 }
+
+
+
+/* Responsive for mobile devices  */
+.hide{
+    display: none;
+}
+
+@media only screen and (max-width:576px) {
+    .header{
+        background-image: none;
+    }
+    .banner{
+        padding: 10px;
+    }
+    .banner .prfl-pic{
+        width: 100%;
+        height: 100%;
+    }
+    .btn-primary{
+        margin-bottom: 10px;
+    }
+    /* What I DO  */
+    .banner,
+    nav,
+    .skill-container,
+    .resume .resume-container,
+    footer,
+    .about .about-info-container
+    {
+        flex-direction: column;
+        gap: 10px;
+    }
+    #what-i-do {
+        padding: 10px 15px;
+    }
+    .resume .resume-container {
+        padding: 0 10px;
+    }
+
+    footer, 
+    .about
+    {
+        padding: 10px;
+    }
+
+    footer .footer-column {
+        width: 100%;
+    }
+    .contact input[type="text"], input[type="email"], textarea {
+        width: 80%;
+    }
+
+}
